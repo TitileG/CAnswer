@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6b751d412e024b20ab812c7b5038c5da" Name="Diagram1">
+        <EntityTypeShape EntityType="S354_ProjectModel.Answer" Width="1.5" PointX="7.5" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="S354_ProjectModel.Colloborator" Width="1.5" PointX="5.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="S354_ProjectModel.Frequency" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="S354_ProjectModel.Post" Width="1.5" PointX="5.25" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="S354_ProjectModel.Post_Comment" Width="1.5" PointX="7.5" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="S354_ProjectModel.Question" Width="1.5" PointX="5.25" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="S354_ProjectModel.Reminder" Width="1.5" PointX="5.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="S354_ProjectModel.Symptom" Width="1.5" PointX="5.25" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="S354_ProjectModel.Treatment" Width="1.5" PointX="10.25" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="S354_ProjectModel.Treatment_Type" Width="1.5" PointX="8" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="S354_ProjectModel.User" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="S354_ProjectModel.UserType" Width="1.5" PointX="0.75" PointY="11.875" IsExpanded="true" />
+        <AssociationConnector Association="S354_ProjectModel.FK__Answers___User__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="S354_ProjectModel.FK__Answers__Answer__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="S354_ProjectModel.FK__Collobora__Users__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="S354_ProjectModel.FK__Reminder__FreqID__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="S354_ProjectModel.FK__Post__WHO_add__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="S354_ProjectModel.FK__Post_Comm__Post___4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="S354_ProjectModel.FK__Post_Comm__UserI__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="S354_ProjectModel.FK__Question__Colab___4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="S354_ProjectModel.FK__Reminder__Client__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="S354_ProjectModel.FK__Symptoms__WHO_ad__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="S354_ProjectModel.FK__Treatment__treat__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="S354_ProjectModel.FK__Treatment__WHO_a__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="S354_ProjectModel.FK__Users__usertypeI__398D8EEE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
