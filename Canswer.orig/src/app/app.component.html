@@ -1,0 +1,76 @@
+﻿<!-- Slide Menu-->
+<aside class="side-menu__container" [ngClass]="{'side-menu__container-active': showMenu}" (click)="toggleMenu()" *ngIf= "currentUser">
+    <nav class="slide-menu" [ngClass]="{'slide-menu-active': showMenu}" (click)="$event.stopImmediatePropagation();">
+        <section class="menu-header">
+          
+            <div class="account-details">
+                <span class="name__text" >{{currentUser.username}}</span>
+                <span class="email__text">{{currentUser.email}}</span>
+            </div>
+        </section>
+        <section class="menu-body">
+          <mat-nav-list>
+            <a mat-list-item routerLink='/'><mat-icon aria-label="home">home </mat-icon>Home</a>
+            <a mat-list-item routerLink=''><mat-icon aria-label="Add Collaborators">person_add </mat-icon>Add Collaborators</a>
+            <a mat-list-item routerLink="/forum"><mat-icon aria-label="forum">forum </mat-icon>Forum</a>
+            <a mat-list-item routerLink="/about"><mat-icon aria-label="help">help </mat-icon>About</a>   
+           </mat-nav-list>
+        </section>
+    </nav>
+    </aside>
+    
+    <div class="root__container" *ngIf="currentUser"    >
+        <header [ngClass]="{'main__header-dark': darkModeActive}" class="main__header">
+    
+            <div class="left__section">
+                    <button
+                    (click)="toggleMenu()" 
+                    aria-label="Open SideBar"
+                    mat-icon-button>
+                    <mat-icon aria-label="menu">menu</mat-icon> 
+                    </button>
+   
+                    <div >
+                      <img class="Logo" src= "..\assets\images\Canswer Logo.PNG">
+                  </div>
+            </div> 
+  <div></div>
+       
+          <div>
+            <button
+            type="button"
+            aria-label="View notifications"
+            mat-icon-button>
+            <mat-icon aria-label="notification">notifications</mat-icon> 
+          </button>
+            <button
+            type="button"
+            aria-label="Open menu"
+            mat-icon-button  
+            [matMenuTriggerFor] = "menu">
+            <mat-icon aria-label="person">person</mat-icon> 
+            </button>
+          </div>
+    
+        </header>
+    
+        <mat-menu #menu = "matMenu">
+          <button mat-menu-item routerLink="/account">Account</button>
+          <button mat-menu-item (click)="logout">Logout</button>
+       </mat-menu>
+      </div>
+  
+        <!--<router-outlet></router-outlet>-->
+        <main class="main__container">
+            <div class="main-container__bg" [ngClass]="{'main-container__bg-dark': darkModeActive}"></div>
+          
+            <router-outlet></router-outlet>
+        </main>
+        <div class="text-center">
+              <a target="_top" mat-icon><mat-icon>copyright</mat-icon>2019 CAnswer Group.</a>
+              <a target="_top">All rights reserved.</a>
+          
+      </div>
+    
+    
+  
