@@ -1,0 +1,15 @@
+<div id="myDIV" class="header">
+    <h2 style="margin:5px">Questions</h2>
+    <span class="input-group-btn">  
+        <a class="btn btn-primary pull-right" type="submit" routerLink="/forum" >Add a Question</a>
+      </span>
+</div>
+<div *ngIf="show">
+				
+				<div class="container" *ngFor="let hero of Questions">
+            
+            <button [routerLink]="['/answer', hero.ID]"><span>{{hero.ID}}</span></button>
+            <p>{{hero.Question1}}</p>
+            <span class="time-right">11:00</span>
+          </div>
+</div>

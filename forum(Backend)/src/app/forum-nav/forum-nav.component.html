@@ -1,0 +1,15 @@
+<div id="myDIV" class="mainheader">
+        <h2 style="margin:5px">Add Question</h2>
+        
+    <span class="input-group-btn"> 
+        <a class="btn btn-primary pull-right" type="submit" routerLink="/question" >Back</a>
+    </span>
+</div>
+<form [formGroup]="profileForm" (ngSubmit)="Add()">
+            <div class="input-group">
+                <input name="message" type="text" class="form-control" placeholder="Your Message..." formControlName="Question1">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit">Send</button>
+                  </span>
+              </div>
+        </form>

@@ -1,0 +1,56 @@
+<div id="myDIV" class="mainheader">
+    <h2 style="margin:5px">Answers</h2>
+    
+    <span class="input-group-btn">
+        <h3>Question {{quesionid}}</h3>  
+        <a class="btn btn-primary pull-right" type="submit" routerLink="/question" >Back</a>
+      </span>
+</div>
+<div class="chat col-xs-12">
+  <div class="card">
+    <div class="card-body">
+        <form [formGroup]="profileForm" (ngSubmit)="send()">
+            <div class="input-group">
+                <input name="message" type="text" class="form-control" placeholder="Your Message..." formControlName="name">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit">Send</button>
+                  </span>
+              </div>
+        </form>
+            <div class="panel-body" *ngIf="show">
+                <ul class="chat">
+                    <li class="left clearfix" *ngFor="let hero of Answers" >
+                      <div *ngIf="hero.QuestionID % 2 == 0"><span class="chat-img pull-left" >
+                        <img src="http://placehold.it/50/55C1E7/fff&text=U" alt="User Avatar" class="img-circle" />
+                    </span>
+                        <div class="chat-body clearfix">
+                            <div class="header">
+                                <strong class="primary-font">{{hero.UserID}}</strong> <small class="pull-right text-muted">
+                                    <span class="glyphicon glyphicon-time">Time</span></small>
+                            </div>
+                            <p>
+                                {{equal}}
+                                {{hero.name}}
+                            </p>
+                        </div>
+                     </div>
+                    </li>
+                </ul>
+            </div>
+      <div>
+          
+             
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+function isEven(value) {
+	if (value%2 == 0)
+		return true;
+	else
+		return false;
+}
+</script>
+
+
