@@ -6,26 +6,26 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule }    from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule,
-    MatIconModule,MatCardModule, MatListModule,MatMenuModule,MatFormFieldModule,MatInputModule} from '@angular/material';
+    MatIconModule,MatCardModule,MatTabsModule, MatListModule,MatMenuModule,MatFormFieldModule,MatInputModule} from '@angular/material';
 
 // used to create fake backend
 import { fakeBackendProvider } from './_helpers';
-
 import { AppComponent }  from './app.component';
 import { routing }        from './app.routing';
-
 import { AlertComponent } from './_components';
 import { JwtInterceptor, ErrorInterceptor } from './_helpers';
 import { HomeComponent } from './home';
 import { LoginComponent } from './login';
-import { RegisterComponent } from './register';;
+import { RegisterComponent } from './register';
 import { AboutComponent } from './about/about.component';
 import { AccountComponent } from './account/account.component';
-
 import{ForumComponent} from './forum/forum.component';
 import {UpdatesComponent} from './updates/updates.component';
-
-
+import { CollaboratorComponent } from './Collaborator/collaborator/collaborator.component';
+import { ForumNavComponent } from './forum/forum-nav/forum-nav.component';
+import { ForumV2Component } from './forum/forum-v2/forum-v2.component';
+import { QuestionForumComponent } from './forum/question-forum/question-forum.component';;
+import { AddCollabComponent } from './Collaborator/add-collab/add-collab.component'
 
 @NgModule({
     imports: [
@@ -34,7 +34,7 @@ import {UpdatesComponent} from './updates/updates.component';
         ReactiveFormsModule,
         HttpClientModule,
         routing,  MatCardModule, NgxYoutubePlayerModule,MatToolbarModule, MatButtonModule, MatSidenavModule,
-        MatIconModule, MatListModule,MatMenuModule,MatFormFieldModule,MatInputModule
+        MatIconModule, MatListModule,MatMenuModule,MatFormFieldModule,MatInputModule, MatTabsModule
         
     ],
     declarations: [
@@ -49,8 +49,9 @@ import {UpdatesComponent} from './updates/updates.component';
     ForumComponent,
     UpdatesComponent,
     AboutComponent
-
-],
+,CollaboratorComponent
+, ForumNavComponent , ForumV2Component , QuestionForumComponent , AddCollabComponent],
+    
     providers: [
         { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
         { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },

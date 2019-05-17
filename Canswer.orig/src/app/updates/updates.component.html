@@ -1,3 +1,74 @@
-<p>
-  updates works!
-</p>
+<div class="columns">
+  <div class="column is-5">
+    <h3 class="notification" style="text-align: center;">Create a new post</h3>
+    <div *ngIf="infoMsg" class="notification is-success">{{ infoMsg }}</div>
+    <div *ngIf="errorMsg" class="is-danger notification">{{ errorMsg }}</div>
+    <form [formGroup] = "newArticleForm" (ngSubmit)= "Submit()">
+      <div>
+        <input
+        id= "newUpdateTitleInput"
+        placeholder="Post title"
+        formControlName = "title"
+        class="input"
+        type="text"
+        name="title"
+        formControlName="title"
+        />
+     </div> 
+     <div>
+        <textarea
+          id="newUpdateContentInput"
+          placeholder="Update"
+          formControlName = "description"
+          name="description"
+          [disabled]="isSending"
+          rows="10"
+          cols="70"
+          >
+        </textarea>
+      </div> 
+      <label for="picture_input">
+        <mat-icon>insert_photo</mat-icon>
+        <input id="picture_input" type="file" accept='image/*' (change)="onFileChanged($event)" formControlName = "pic" />
+        <img [src]="imgURL" height="200" *ngIf="imgURL">
+      </label>
+  <!-- <div class="field">
+        <div class="control">
+          <input
+            class="input"
+            type="text"
+            placeholder="Post title"
+            name="title"
+            formControlName="title"
+            id= "newUpdateTitleInput"
+            [ngClass]="{ 'is-invalid': submitted && f.email.errors }"/>
+        </div>
+      </div>
+
+      <div>
+        <textarea
+          placeholder="Message"
+          rows="10"
+          cols="70"
+          [disabled]="isSending"
+          name="description"
+          id="newUpdateContentInput"
+          [ngClass]="{ 'is-invalid': submitted && f.email.errors }">
+        </textarea>
+      
+          <div >
+            <label for="picture_input">
+              <mat-icon>insert_photo</mat-icon>
+            </label>
+          <input id="picture_input" type="file" accept='image/*' (change)="preview(file.files)" />
+          <img [src]="imgURL" height="200" *ngIf="imgURL">
+          </div>
+      </div> -->
+
+      <button type = "submit" class="button btn-primary" [disabled]="isSending">Submit</button>
+    </form>
+  </div>
+
+  <div class="is-7"></div>
+</div>
+
