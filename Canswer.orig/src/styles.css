@@ -291,7 +291,7 @@ padding:10px;
     animation-duration: 2s;
     position: relative;
     text-align: center;
-    background-position-x: 50%;
+
 
   }
   .btn-primary {
@@ -321,20 +321,8 @@ padding:10px;
   
   
   }
-  .btn-primary {
-    background: linear-gradient(pink,rgb(238, 41, 74));
-    padding: 1rem;
-    border-radius: 3rem;
-    outline: none;
-    border: none;
-    color: white;
-    font-size: 1.1rem;
-    cursor: pointer;
-    margin-top: 1rem;
-    animation-duration: 2s;
-    width: 4cm ;
   
-  }
+  
   .login-container{
     position: center;
     text-align: center;
@@ -345,14 +333,14 @@ padding:10px;
   .col
   {
   float:left;
-  width: 10%;
+  width: 50%;
   padding:10px;
   
   }
   .col-main
   {
     float: left;
-    width: 80%;
+    width: 50%;
     padding: 10px;
     text-align: center;
     
@@ -362,9 +350,6 @@ padding:10px;
     background: white;
     height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
   }
   

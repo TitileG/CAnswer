@@ -1,0 +1,17 @@
+<div id="myDIV" class="mainheader">
+  <a class="heading">Ask Question</a>
+  <br>
+<span class="input-group-btn"> 
+  <button class="btn btn-primary pull-right" type="submit" routerLink="/question"  mat-icon-button>
+  <mat-icon>arrow_back</mat-icon>
+  </button>
+</span>
+</div>
+<form [formGroup]="profileForm" (ngSubmit)="Add()">
+      <div class="input-group">
+          <input name="message" type="text" class="form-control" placeholder="Your Question..." formControlName="Question1">
+          <span class="input-group-btn">
+              <button class="btn btn-primary" type="submit">Send</button>
+            </span>
+        </div>
+  </form>

@@ -1,0 +1,43 @@
+
+<a class="heading">Collaborators</a>
+  <br><br>  
+    
+
+            
+    <button class="btn" routerLink="/AddCollaborator">Add Collaborator</button>
+  <br>
+ 
+        <table class="table" >  
+            <tr ngclass="btn-primary">  
+              <th class="tbl2">Name</th>  
+              <th class="tbl2">Surname</th>  
+              <th class="tbl2">Email</th>  
+              <th class="tbl2">Username</th>  
+              <th class="tbl2">Action</th>
+         
+            </tr>  
+            <tr *ngFor="let collaborator of allcollaborators | async">  
+              <td class="tbl2">{{collaborator.name}}</td>  
+              <td class="tbl2">{{collaborator.surname }}</td>  
+              <td class="tbl2">{{collaborator.email}}</td>  
+              <td class="tbl2">{{collaborator.username}}</td> 
+              <td class= "tb12"><button mat-icon-button (click)="loadcollaboratorToEdit(collaborator.Id)"><mat-icon>visibility</mat-icon></button></td>
+              <td class= "tb12"><button mat-icon-button><mat-icon>delete</mat-icon></button></td>
+              <td class="tbl2">  
+                <button type="button" class="btn btn-info"matTooltip="Click Edit Button"(click)="loadcollaboratorToEdit(collaborator.Id)">Edit</button>  
+              </td>  
+       
+            </tr>  
+          </table> 
+
+
+          
+                             
+                           
+                      
+                    
+      
+
+     
+
+
