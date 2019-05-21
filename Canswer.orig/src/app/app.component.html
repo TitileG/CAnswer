@@ -4,8 +4,8 @@
         <section class="menu-header">
           
             <div class="account-details">
-                <span class="name__text" >{{currentUser.username}}</span>
-                <span class="email__text">{{currentUser.email}}</span>
+                <span class="name__text" >{{currentUser.Username}}</span>
+                <span class="email__text">{{currentUser.email_address}}</span>
             </div>
         </section>
         <section class="menu-body">
@@ -57,7 +57,7 @@
     
         <mat-menu #menu = "matMenu">
           <button mat-menu-item routerLink="/account">Account</button>
-          <button mat-menu-item (click)="logout">Logout</button>
+          <button mat-menu-item (click)="logout()">Logout</button>
        </mat-menu>
       </div>
   

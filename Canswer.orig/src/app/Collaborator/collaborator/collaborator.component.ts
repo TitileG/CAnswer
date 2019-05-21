@@ -3,6 +3,7 @@ import { FormBuilder, Validators } from '@angular/forms';
 import { Observable } from 'rxjs';  
 import { Collaborator } from 'src/app/_models/collaborators';
 import { CollobaratorsService } from "src/app/_services/collobarators.service";  
+import { User } from '@app/_models';
 
 @Component({
   selector: 'app-collaborator',
@@ -14,9 +15,11 @@ import { CollobaratorsService } from "src/app/_services/collobarators.service";
   export class CollaboratorComponent implements OnInit {  
     dataSaved = false;  
     collaboratorForm: any;  
-    allcollaborators: Observable<Collaborator[]>;  
+    allcollaborators: Observable<Collaborator[]>;
+    colablist :Collaborator[];  
     collaboratorIdUpdate = null;  
-    massage = null;  
+    massage = null; 
+    show = false; 
 
   constructor(private formbuilder: FormBuilder, private collaboratorService:CollobaratorsService) { }  
   
@@ -29,11 +32,19 @@ import { CollobaratorsService } from "src/app/_services/collobarators.service";
       phoneNo: ['', [Validators.required]],  
       jobDescription: ['', [Validators.required]], 
       qualification: ['', [Validators.required]], 
-    });  
-    this.loadAllcollaborators();  
+    });
+    console.log(this.show);  
+    this.loadAllcollaborators();
+
   }  
   loadAllcollaborators() {  
-    this.allcollaborators = this.collaboratorService.getAllCollaborators();  
+    this.allcollaborators = this.collaboratorService.getAllCollaborators();
+    // this.collaboratorService.getAllCollaborators().subscribe(data => this.colablist = data );
+    // console.log(this.colablist[1])
+    if(this.allcollaborators != null){
+        this.show = true;
+        console.log(this.show); 
+    } 
   }  
   onFormSubmit() {  
     this.dataSaved = false;  
@@ -45,14 +56,13 @@ import { CollobaratorsService } from "src/app/_services/collobarators.service";
     this.collaboratorService.getCollaboratorById(collaboratorId).subscribe(collaborator=> {  
       this.massage = null;  
       this.dataSaved = false;  
-      this.collaboratorIdUpdate = collaborator.Id;  
-      this.collaboratorForm.controls['name'].setValue(collaborator.name);  
-     this.collaboratorForm.controls['surname'].setValue(collaborator.surname);  
-      this.collaboratorForm.controls['username'].setValue(collaborator.username);  
-      this.collaboratorForm.controls['email'].setValue(collaborator.email);  
-      this.collaboratorForm.controls['phoneNo'].setValue(collaborator.phoneNo);  
-      this.collaboratorForm.controls['jobDescr'].setValue(collaborator.jobDescr);
-      this.collaboratorForm.controls['qualification'].setValue(collaborator.qualification);  
+      this.collaboratorIdUpdate = collaborator.ID;  
+      this.collaboratorForm.controls['name'].setValue(collaborator.Name);  
+     this.collaboratorForm.controls['surname'].setValue(collaborator.Name);  
+    
+      this.collaboratorForm.controls['phoneNo'].setValue(collaborator.Phone_number);  
+      this.collaboratorForm.controls['jobDescr'].setValue(collaborator.Job_Depscription);
+      this.collaboratorForm.controls['qualification'].setValue(collaborator.Qualification);  
     });  
   
   }  
@@ -68,7 +78,7 @@ import { CollobaratorsService } from "src/app/_services/collobarators.service";
         }  
       );  
     } else {  
-      collaborator.Id = this.collaboratorIdUpdate;  
+      collaborator.ID = this.collaboratorIdUpdate;  
       this.collaboratorService.updateCollaborators(collaborator).subscribe(() => {  
         this.dataSaved = true;  
         this.massage = 'Record Updated Successfully';  

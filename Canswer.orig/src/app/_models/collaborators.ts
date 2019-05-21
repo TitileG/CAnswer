@@ -1,11 +1,8 @@
 export class Collaborator {
-    Id: string ;
-    email: string 
-    username: string;
-    name: string;
-    surname: string;
-    phoneNo: string ;
-    jobDescr : string;
-    qualification: string;
-
+ID : number;
+Name : string;
+Surname : string;
+Phone_number : string;
+Qualification : string;
+Job_Depscription :string;
 }

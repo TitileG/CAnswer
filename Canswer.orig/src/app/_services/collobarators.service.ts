@@ -14,8 +14,10 @@ export class CollobaratorsService {
 
   getAllCollaborators():Observable<Collaborator[]>{
       return this.http.get<Collaborator[]>
-      (this.url+'/getCollaborators');
+      (this.url+'/GetCollaborators');
+     
     }
+
     getCollaboratorById(Id: string): Observable<Collaborator> {  
       return this.http.get<Collaborator>(this.url + '/GetCollaboratorById/' + Id);  
     } 

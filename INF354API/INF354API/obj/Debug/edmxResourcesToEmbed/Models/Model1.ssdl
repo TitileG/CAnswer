@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="S354_ProjectModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Answers">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Answer" Type="int" />
+    <Property Name="_User" Type="int" />
+    <Property Name="FA_Answer" Type="varchar" MaxLength="200" />
+    <Property Name="downvote" Type="int" />
+    <Property Name="upvote" Type="int" />
+  </EntityType>
+  <EntityType Name="Colloborators">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="200" />
+    <Property Name="Surname" Type="varchar" MaxLength="200" />
+    <Property Name="Phone_number" Type="varchar" MaxLength="200" />
+    <Property Name="Qualification" Type="varchar" MaxLength="200" />
+    <Property Name="Job_Depscription" Type="varchar" MaxLength="200" />
+    <Property Name="Users" Type="int" />
+  </EntityType>
+  <EntityType Name="Frequency">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Post">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Post_Description" Type="varchar" MaxLength="8000" />
+    <Property Name="Picture" Type="image" />
+    <Property Name="Post_DateAdded" Type="datetime" />
+    <Property Name="archive" Type="bit" />
+    <Property Name="WHO_add" Type="int" />
+  </EntityType>
+  <EntityType Name="Post_Comment">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Post_Comment" Type="varchar" MaxLength="8000" />
+    <Property Name="Post_ID" Type="int" />
+    <Property Name="UserID" Type="int" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Question" Type="varchar" MaxLength="200" />
+    <Property Name="Colab_ID" Type="int" />
+  </EntityType>
+  <EntityType Name="Reminder">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="varchar" MaxLength="200" />
+    <Property Name="Description" Type="varchar" MaxLength="1000" />
+    <Property Name="DateStart" Type="datetime" />
+    <Property Name="DateEnd" Type="datetime" />
+    <Property Name="FreqID" Type="int" />
+    <Property Name="Client" Type="int" />
+  </EntityType>
+  <EntityType Name="Symptoms">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Sym_Description" Type="varchar" MaxLength="200" />
+    <Property Name="Sym_Content" Type="varchar" MaxLength="8000" />
+    <Property Name="Sym_DateAdded" Type="datetime" />
+    <Property Name="WHO_added" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Treatment">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TreatmentName" Type="varchar" MaxLength="200" />
+    <Property Name="Treatment_Link" Type="varbinary(max)" />
+    <Property Name="treatmenttypeID" Type="int" />
+    <Property Name="WHO_added" Type="int" />
+  </EntityType>
+  <EntityType Name="Treatment_Type">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TreatmentTypeName" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="email_address" Type="varchar" MaxLength="200" />
+    <Property Name="Username" Type="varchar" MaxLength="100" />
+    <Property Name="Password" Type="varchar" MaxLength="100" />
+    <Property Name="usertypeID" Type="int" />
+  </EntityType>
+  <EntityType Name="UserType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Usertype" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK__Answers___User__2B3F6F97">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Answers" Type="Self.Answers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Answers">
+        <PropertyRef Name="_User" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Answers__Answer__2A4B4B5E">
+    <End Role="Question" Type="Self.Question" Multiplicity="0..1" />
+    <End Role="Answers" Type="Self.Answers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Question">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Answers">
+        <PropertyRef Name="Answer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Collobora__Users__15502E78">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Colloborators" Type="Self.Colloborators" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Colloborators">
+        <PropertyRef Name="Users" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Post__WHO_add__182C9B23">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Post" Type="Self.Post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Post">
+        <PropertyRef Name="WHO_add" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Post_Comm__Post___1BFD2C07">
+    <End Role="Post" Type="Self.Post" Multiplicity="0..1" />
+    <End Role="Post_Comment" Type="Self.Post_Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Post">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Post_Comment">
+        <PropertyRef Name="Post_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Post_Comm__UserI__1B0907CE">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Post_Comment" Type="Self.Post_Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Post_Comment">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Question__Colab___276EDEB3">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Question" Type="Self.Question" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Question">
+        <PropertyRef Name="Colab_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reminder__Client__300424B4">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Reminder" Type="Self.Reminder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Reminder">
+        <PropertyRef Name="Client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reminder__FreqID__30F848ED">
+    <End Role="Frequency" Type="Self.Frequency" Multiplicity="0..1" />
+    <End Role="Reminder" Type="Self.Reminder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Frequency">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Reminder">
+        <PropertyRef Name="FreqID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Symptoms__WHO_ad__1ED998B2">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Symptoms" Type="Self.Symptoms" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Symptoms">
+        <PropertyRef Name="WHO_added" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Treatment__treat__24927208">
+    <End Role="Treatment_Type" Type="Self.Treatment_Type" Multiplicity="0..1" />
+    <End Role="Treatment" Type="Self.Treatment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Treatment_Type">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Treatment">
+        <PropertyRef Name="treatmenttypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Treatment__WHO_a__239E4DCF">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Treatment" Type="Self.Treatment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Treatment">
+        <PropertyRef Name="WHO_added" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__usertypeI__1273C1CD">
+    <End Role="UserType" Type="Self.UserType" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserType">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="usertypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="S354_ProjectModelStoreContainer">
+    <EntitySet Name="Answers" EntityType="Self.Answers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Colloborators" EntityType="Self.Colloborators" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Frequency" EntityType="Self.Frequency" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Post" EntityType="Self.Post" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Post_Comment" EntityType="Self.Post_Comment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Question" EntityType="Self.Question" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reminder" EntityType="Self.Reminder" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Symptoms" EntityType="Self.Symptoms" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Treatment" EntityType="Self.Treatment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Treatment_Type" EntityType="Self.Treatment_Type" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserType" EntityType="Self.UserType" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Answers___User__2B3F6F97" Association="Self.FK__Answers___User__2B3F6F97">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Answers" EntitySet="Answers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Answers__Answer__2A4B4B5E" Association="Self.FK__Answers__Answer__2A4B4B5E">
+      <End Role="Question" EntitySet="Question" />
+      <End Role="Answers" EntitySet="Answers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Collobora__Users__15502E78" Association="Self.FK__Collobora__Users__15502E78">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Colloborators" EntitySet="Colloborators" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Post__WHO_add__182C9B23" Association="Self.FK__Post__WHO_add__182C9B23">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Post" EntitySet="Post" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Post_Comm__Post___1BFD2C07" Association="Self.FK__Post_Comm__Post___1BFD2C07">
+      <End Role="Post" EntitySet="Post" />
+      <End Role="Post_Comment" EntitySet="Post_Comment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Post_Comm__UserI__1B0907CE" Association="Self.FK__Post_Comm__UserI__1B0907CE">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Post_Comment" EntitySet="Post_Comment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Question__Colab___276EDEB3" Association="Self.FK__Question__Colab___276EDEB3">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Question" EntitySet="Question" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reminder__Client__300424B4" Association="Self.FK__Reminder__Client__300424B4">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Reminder" EntitySet="Reminder" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reminder__FreqID__30F848ED" Association="Self.FK__Reminder__FreqID__30F848ED">
+      <End Role="Frequency" EntitySet="Frequency" />
+      <End Role="Reminder" EntitySet="Reminder" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Symptoms__WHO_ad__1ED998B2" Association="Self.FK__Symptoms__WHO_ad__1ED998B2">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Symptoms" EntitySet="Symptoms" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Treatment__treat__24927208" Association="Self.FK__Treatment__treat__24927208">
+      <End Role="Treatment_Type" EntitySet="Treatment_Type" />
+      <End Role="Treatment" EntitySet="Treatment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Treatment__WHO_a__239E4DCF" Association="Self.FK__Treatment__WHO_a__239E4DCF">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Treatment" EntitySet="Treatment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__usertypeI__1273C1CD" Association="Self.FK__Users__usertypeI__1273C1CD">
+      <End Role="UserType" EntitySet="UserType" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -3,6 +3,6 @@
     Username: string;
     password: string;
     usertypeID: number;
-    emailaddress: string;
+    email_address: string;
     token: string;
 }
