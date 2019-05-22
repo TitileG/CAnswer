@@ -25,7 +25,8 @@ import { CollaboratorComponent } from './Collaborator/collaborator/collaborator.
 import { ForumNavComponent } from './forum/forum-nav/forum-nav.component';
 import { ForumV2Component } from './forum/forum-v2/forum-v2.component';
 import { QuestionForumComponent } from './forum/question-forum/question-forum.component';;
-import { AddCollabComponent } from './Collaborator/add-collab/add-collab.component'
+import { AddCollabComponent } from './Collaborator/add-collab/add-collab.component';
+import { UpdateCollabComponent } from './collaborator/update-collab/update-collab.component'
 
 @NgModule({
     imports: [
@@ -50,7 +51,7 @@ import { AddCollabComponent } from './Collaborator/add-collab/add-collab.compone
     UpdatesComponent,
     AboutComponent
 ,CollaboratorComponent
-, ForumNavComponent , ForumV2Component , QuestionForumComponent , AddCollabComponent],
+, ForumNavComponent , ForumV2Component , QuestionForumComponent , AddCollabComponent], UpdateCollabComponent,
     
     providers: [
         { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },

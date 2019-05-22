@@ -3,27 +3,25 @@ import { FormBuilder, Validators } from '@angular/forms';
 import { Observable } from 'rxjs';  
 import { Collaborator } from 'src/app/_models/collaborators';
 import { CollobaratorsService } from "src/app/_services/collobarators.service";  
-import { User } from '@app/_models';
 
 @Component({
-  selector: 'app-collaborator',
-  templateUrl: './collaborator.component.html',
-  styleUrls: ['./collaborator.component.css']
+  selector: 'app-update-collab',
+  templateUrl: './update-collab.component.html',
+  styleUrls: ['./update-collab.component.css']
 })
+export class UpdateCollabComponent implements OnInit {
 
-  
-  export class CollaboratorComponent implements OnInit {  
-    dataSaved = false;  
-    collaboratorForm: any;  
-    allcollaborators: Observable<Collaborator[]>;
-    colablist :Collaborator[];  
-    collaboratorIdUpdate = null;  
-    massage = null; 
-    show = false; 
+  dataSaved = false;  
+  collaboratorForm: any;  
+  allcollaborators: Observable<Collaborator[]>;
+  colablist :Collaborator[];  
+  collaboratorIdUpdate = null;  
+  massage = null; 
+  show = false; 
 
   constructor(private formbuilder: FormBuilder, private collaboratorService:CollobaratorsService) { }  
-  
-  ngOnInit() {  
+
+  ngOnInit() {
     this.collaboratorForm = this.formbuilder.group({  
       name: ['', [Validators.required]],  
       surname: ['', [Validators.required]],  
@@ -33,20 +31,8 @@ import { User } from '@app/_models';
       jobDescription: ['', [Validators.required]], 
       qualification: ['', [Validators.required]], 
     });
-    console.log(this.show);  
-    this.loadAllcollaborators();
-
-  }  
-  loadAllcollaborators() {  
-    this.allcollaborators = this.collaboratorService.getAllCollaborators();
-    // this.collaboratorService.getAllCollaborators().subscribe(data => this.colablist = data );
-    // console.log(this.colablist[1])
-    if(this.allcollaborators != null){
-        this.show = true;
-        console.log(this.show); 
-    } 
-  }  
-collaboratorToEdit(collaboratorId: string) {  
+  }
+  collaboratorToEdit(collaboratorId: string) {  
     this.collaboratorService.getCollaboratorById(collaboratorId).subscribe(collaborator=> {  
       this.massage = null;  
       this.dataSaved = false;  
@@ -58,15 +44,25 @@ collaboratorToEdit(collaboratorId: string) {
       this.collaboratorForm.controls['qualification'].setValue(collaborator.Qualification);  
     });  
   
-  }  
-
-    
-  resetForm() {  
-    this.collaboratorForm.reset();  
-    this.massage = null;  
-    this.dataSaved = false;  
-  }  
-} 
+  } 
+  updateCollaborator(collaborator: Collaborator){
+    collaborator.ID = this.collaboratorIdUpdate;  
+    this.collaboratorService.updateCollaborators(collaborator).subscribe(() => {  
+      this.dataSaved = true;  
+      this.massage = 'Record Updated Successfully';  
+  });
+}
   
+
+     onFormSubmit() {  
+      this.dataSaved = false;  
+      const collaborator = this.collaboratorForm.value;  
+      this.updateCollaborator(collaborator);  
+      this.collaboratorForm.reset();  
+      this.collaboratorIdUpdate = null;  
+    }  
+    
+  }
+
 
 

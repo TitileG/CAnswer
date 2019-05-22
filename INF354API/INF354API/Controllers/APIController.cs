@@ -60,7 +60,7 @@ namespace INF354API.Controllers
                 {
                     return NotFound();
                 }
-                User tempuser = db.Users.Find(colloborator.User.ID);
+                User tempuser = db.Users.Find(colloborator.Users);
                 AddCollaborator temp = new AddCollaborator();
                 temp.getcolab = colloborator;
                 temp.getusers = tempuser;

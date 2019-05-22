@@ -19,7 +19,7 @@ export class CollobaratorsService {
     }
 
     getCollaboratorById(ID: string): Observable<Collaborator> {  
-      return this.http.get<Collaborator>(this.url + '/GetCollaborators/' + ID);  
+      return this.http.get<Collaborator>(this.url + '/GetColloborator/' + ID);  
     } 
 
 
