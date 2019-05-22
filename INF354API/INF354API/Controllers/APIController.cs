@@ -181,7 +181,7 @@ namespace INF354API.Controllers
                 catch (Exception e)
                 {
 
-                    throw e;
+                    return NotFound();
                 }
 
             }
