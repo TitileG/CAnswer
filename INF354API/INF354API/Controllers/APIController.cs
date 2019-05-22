@@ -44,12 +44,29 @@ namespace INF354API.Controllers
                     List<Colloborator> colabList = db.Colloborators.Include(i => i.User).ToList();
                     return colabList;
                 }
-                catch
+                catch(Exception e)
                 {
-                    throw;
+                   throw;
                 }
                 
             }
+            [ResponseType(typeof(Colloborator))]
+            public IHttpActionResult GetColloborator(int id)
+            {
+                db.Configuration.ProxyCreationEnabled = false;
+                Colloborator colloborator = db.Colloborators.Find(id);
+                
+                if (colloborator == null)
+                {
+                    return NotFound();
+                }
+                User tempuser = db.Users.Find(colloborator.User.ID);
+                AddCollaborator temp = new AddCollaborator();
+                temp.getcolab = colloborator;
+                temp.getusers = tempuser;
+                return Ok(temp);
+            }
+        
             // GET: api/Users
             public List<Symptom> GetSymptoms()
             {
