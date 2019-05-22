@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import{HttpClient, HttpHeaders} from '@angular/common/http';
 import {Observable} from 'rxjs';
-import {Collaborator} from '../_models/collaborators'
+import {Collaborator} from '../_models/collaborators';
 
 
 @Injectable({
@@ -18,8 +18,8 @@ export class CollobaratorsService {
      
     }
 
-    getCollaboratorById(Id: string): Observable<Collaborator> {  
-      return this.http.get<Collaborator>(this.url + '/GetCollaboratorById/' + Id);  
+    getCollaboratorById(ID: string): Observable<Collaborator> {  
+      return this.http.get<Collaborator>(this.url + '/GetCollaborators/' + ID);  
     } 
 
 

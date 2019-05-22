@@ -46,23 +46,17 @@ import { User } from '@app/_models';
         console.log(this.show); 
     } 
   }  
-  onFormSubmit() {  
-    this.dataSaved = false;  
-    const collaborator = this.collaboratorForm.value;  
-    this.Createcollaborator(collaborator);  
-    this.collaboratorForm.reset();  
-  }  
-  loadcollaboratorToEdit(collaboratorId: string) {  
+collaboratorToEdit(collaboratorId: string) {  
     this.collaboratorService.getCollaboratorById(collaboratorId).subscribe(collaborator=> {  
       this.massage = null;  
       this.dataSaved = false;  
       this.collaboratorIdUpdate = collaborator.ID;  
-      this.collaboratorForm.controls['name'].setValue(collaborator.Name);  
-     this.collaboratorForm.controls['surname'].setValue(collaborator.Name);  
+      this.collaboratorForm.controls['Name'].setValue(collaborator.Name);  
+     this.collaboratorForm.controls['Surname'].setValue(collaborator.Surname);  
     
-      this.collaboratorForm.controls['phoneNo'].setValue(collaborator.Phone_number);  
-      this.collaboratorForm.controls['jobDescr'].setValue(collaborator.Job_Depscription);
-      this.collaboratorForm.controls['qualification'].setValue(collaborator.Qualification);  
+      this.collaboratorForm.controls['Phone_number'].setValue(collaborator.Phone_number);  
+      this.collaboratorForm.controls['Job_description'].setValue(collaborator.Job_Depscription);
+      this.collaboratorForm.controls['Qualification'].setValue(collaborator.Qualification);  
     });  
   
   }  
