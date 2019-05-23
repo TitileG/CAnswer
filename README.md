@@ -9,3 +9,4 @@ this is the https Stuff
 3)npm config set https-proxy http://u10101145:2n259vC@137.215.6.53:8080
 
 4)npm install -g @angular/cli
+npm install @angular-devkit/build-angular

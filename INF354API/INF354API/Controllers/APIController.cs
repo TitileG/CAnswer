@@ -185,32 +185,28 @@ namespace INF354API.Controllers
                 }
 
             }
-            [ResponseType(typeof(AddCollaborator))]
+            [ResponseType(typeof(User))]
             // GET: api/Users
-            public List<Colloborator> AddCollaborators(AddCollaborator Colab)
+            public User AddUser(User newUser)
             {
 
                 //this is for an error that it can serialize the data that we send through
                 db.Configuration.ProxyCreationEnabled = false;
                 try
                 {
-                    //here i assign all the user to a temp user and colab to temp colab
-                    Colloborator tempcolabs = Colab.getcolab;
-                    User tempuser = Colab.getusers;
-                    //First we got to add the user table
-                    //WE FIRST HAVE TO ASSIGN TO THE USER A TYPE COLLABORATOR
-                    UserType typeid = db.UserTypes.Where(i => i.Usertype1 == "Collaborator").FirstOrDefault();
-                    tempuser.usertypeID = typeid.ID;
-                    db.Users.Add(tempuser);
-                    //then we searh the user table for the id
-                    User Newuser = db.Users.Where(i => i.Username == tempuser.Username).FirstOrDefault();
+                    if (newUser != null) {
 
-                    //then we the add the colab details to the system and id that we got from above
-                    tempcolabs.Users = Newuser.ID;
-                    db.Colloborators.Add(tempcolabs);
-                    db.SaveChanges();
-                    List<Colloborator> colabList = db.Colloborators.ToList();
-                    return colabList;
+                        db.Users.Add(newUser);
+                        db.SaveChanges();
+
+                    }
+                    else
+                    {
+                        return newUser;
+                    }
+                   
+                    //List<Colloborator> colabList = db.Colloborators.ToList();
+                    return newUser;
                 }
                 catch (Exception e)
                 {

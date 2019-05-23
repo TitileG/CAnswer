@@ -24,7 +24,7 @@ const appRoutes: Routes = [
     {path:"account",component: AccountComponent},
     {path:"register" , component: RegisterComponent},
     {path:"Collaborators", component: CollaboratorComponent},
-    {path : "Forum", component: ForumNavComponent},
+    {path : "addquestion", component: ForumNavComponent},
     { path: 'answer/:id', component: ForumV2Component },
     { path: 'question', component: QuestionForumComponent },
     {path: 'AddCollaborator', component:AddCollabComponent},
