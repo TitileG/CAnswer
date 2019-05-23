@@ -22,8 +22,8 @@
               <td class="tbl2">{{collaborator.Surname }}</td>  
               <td class="tbl2">{{collaborator.Qualification}}</td>
               <td class="tbl2">{{collaborator.email_address}}</td>
-              <td class= "tb12"><button mat-icon-button (click)="loadcollaboratorToEdit(collaborator.ID)"><mat-icon>visibility</mat-icon></button></td>
-              <td class= "tb12"><button mat-icon-button (click)="loadcollaboratorToEdit(collaborator.ID)"><mat-icon>edit</mat-icon></button></td>
+              <td class= "tb12"><button mat-icon-button ><mat-icon>visibility</mat-icon></button></td>
+              <td class= "tb12"><button mat-icon-button [routerLink] ="['/UpdateCollaborator',collaborator.ID]"><mat-icon>edit</mat-icon></button></td>
               <td class= "tb12"><button mat-icon-button><mat-icon>delete</mat-icon></button></td>
              
        

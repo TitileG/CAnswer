@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import{HttpClient, HttpHeaders} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {Collaborator} from '../_models/collaborators';
+import { AddCollaborator } from '@app/_models/AddCollaborator';
 
 
 @Injectable({
@@ -18,8 +19,10 @@ export class CollobaratorsService {
      
     }
 
-    getCollaboratorById(ID: string): Observable<Collaborator> {  
-      return this.http.get<Collaborator>(this.url + '/GetCollaborators/' + ID);  
+    getCollaboratorById(ID: number): Observable<AddCollaborator> {  
+      console.log("Phase2");
+      return this.http.get<AddCollaborator>(this.url + '/GetColloborator/' + ID);  
+    
     } 
 
 

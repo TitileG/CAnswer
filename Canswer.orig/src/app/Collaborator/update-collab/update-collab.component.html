@@ -1,4 +1,5 @@
-<h1>Add Collaborator</h1>
+
+<h1>Update Collaborator</h1>
 
 
   <form [formGroup]="collaboratorForm" (ngSubmit)="onFormSubmit()">   
@@ -6,23 +7,25 @@
         <div class="form-group">
                       <input formControlName="name" placeholder="Name" class="acc-input"> 
                    
+                       
                   
         </div>
 
               <div class="form-group">
-                      <input formControlName="surname"  placeholder="Surname" class="acc-input">  
+                      <input formControlName="surname"  placeholder="Surname" class="acc-input" >  
                     
            
                   </div>
 
                    <div class="form-group">
-                      <input formControlName="username"  placeholder="Username" class="acc-input">  
-                  
+                      <input formControlName="username"  placeholder="Username" class="acc-input" >  
+                   
+                 
                   </div>
 
                   <div class="form-group">
                       <input formControlName="email"  placeholder="Email" class="acc-input">  
-                   
+                     
                   </div>
                 
                  
@@ -30,22 +33,20 @@
             <div class="col-main">
                   <div class="form-group">
                       <input formControlName="phoneNo"  placeholder="Phone Number" class="acc-input">  
-                  </div>
-                    
+                     
+                      </div>
               <div class="form-group">
-                <input formControlName="jobDescr"  placeholder="Job Description" class="acc-input">  
-               
+                <input formControlName="jobDescription"  placeholder="Job Description" class="acc-input">  
+              
               </div>
 
               <div class="form-group">
-                <input formControlName="Qualification"  placeholder="Qualification" class="acc-input">  
-            
-
+                <input formControlName="qualification"  placeholder="Qualification" class="acc-input">  
+              
               </div>
             </div>
 
-  <button type="submit" matTooltip="Click Submit Button"[disabled]="!collaboratorForm.valid" class="btn-primary"> Submit</button>
-  <button type="reset" matTooltip="Click Reset Button" (click)="resetForm()" class="btn-primary">Reset</button>
+  <button type="submit" matTooltip="Click Submit Button"[disabled]="!collaboratorForm.valid" class="btn-primary">Update</button>
   <p *ngIf="dataSaved" style="color:rgb(0, 128, 0);font-size:20px;font-weight:bold" Class="success" >  
     {{message}}</p>  
 </form> 
