@@ -13,6 +13,7 @@ import { ForumNavComponent } from './forum/forum-nav/forum-nav.component';
 import{ ForumV2Component} from './forum/forum-v2/forum-v2.component';
 import {QuestionForumComponent} from './forum/question-forum/question-forum.component'
 import { AddCollabComponent } from './Collaborator/add-collab/add-collab.component';
+import{UpdateCollabComponent} from './Collaborator/update-collab/update-collab.component';
 
 const appRoutes: Routes = [
     { path: '', component: HomeComponent, canActivate: [AuthGuard] },
@@ -28,6 +29,7 @@ const appRoutes: Routes = [
     { path: 'answer/:id', component: ForumV2Component },
     { path: 'question', component: QuestionForumComponent },
     {path: 'AddCollaborator', component:AddCollabComponent},
+    {path:'UpdateCollaborator/:id', component: UpdateCollabComponent},
     // otherwise redirect to home
     { path: '**', redirectTo: '' }
 ];

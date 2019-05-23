@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { Collaborator } from 'src/app/_models/collaborators';
 import { CollobaratorsService } from "src/app/_services/collobarators.service";  
 import { User } from '@app/_models';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-collaborator',
@@ -16,12 +17,14 @@ import { User } from '@app/_models';
     dataSaved = false;  
     collaboratorForm: any;  
     allcollaborators: Observable<Collaborator[]>;
+    collaborator: Collaborator;
     colablist :Collaborator[];  
     collaboratorIdUpdate = null;  
     massage = null; 
     show = false; 
-
-  constructor(private formbuilder: FormBuilder, private collaboratorService:CollobaratorsService) { }  
+  
+  constructor(private formbuilder: FormBuilder, private collaboratorService:CollobaratorsService,   private route: ActivatedRoute,
+        private router: Router) { }  
   
   ngOnInit() {  
     this.collaboratorForm = this.formbuilder.group({  
@@ -39,26 +42,12 @@ import { User } from '@app/_models';
   }  
   loadAllcollaborators() {  
     this.allcollaborators = this.collaboratorService.getAllCollaborators();
-    // this.collaboratorService.getAllCollaborators().subscribe(data => this.colablist = data );
-    // console.log(this.colablist[1])
     if(this.allcollaborators != null){
         this.show = true;
         console.log(this.show); 
     } 
   }  
-collaboratorToEdit(collaboratorId: string) {  
-    this.collaboratorService.getCollaboratorById(collaboratorId).subscribe(collaborator=> {  
-      this.massage = null;  
-      this.dataSaved = false;  
-      this.collaboratorIdUpdate = collaborator.ID;  
-      this.collaboratorForm.controls['name'].setValue(collaborator.Name);  
-     this.collaboratorForm.controls['surname'].setValue(collaborator.Surname); 
-      this.collaboratorForm.controls['phoneNo'].setValue(collaborator.Phone_number);  
-      this.collaboratorForm.controls['jobDescription'].setValue(collaborator.Job_Depscription);
-      this.collaboratorForm.controls['qualification'].setValue(collaborator.Qualification);  
-    });  
-  
-  }  
+
 
     
   resetForm() {  
