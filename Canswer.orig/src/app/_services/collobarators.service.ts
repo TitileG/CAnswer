@@ -34,10 +34,10 @@ export class CollobaratorsService {
    
  }
 
- updateCollaborators(collaborator:Collaborator): Observable<Collaborator>{
+ updateCollaborators(collaborator:AddCollaborator): Observable<Collaborator>{
    const httpOptions ={headers: new HttpHeaders({'content-type':'application/json'})};
    return this.http.put<Collaborator>
 
-   ( this.url+ '/UpdateCollaborators',collaborator,httpOptions)
+   ( this.url+ '/UpdateCollaborator',collaborator,httpOptions)
  }
    }

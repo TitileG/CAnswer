@@ -1,5 +1,6 @@
 
 <h1>Update Collaborator</h1>
+<button class="btn-primary" routerLink="/Collaborators"><mat-icon>arrow_back</mat-icon></button>
 
 
   <form [formGroup]="collaboratorForm" (ngSubmit)="onFormSubmit()">   
@@ -46,7 +47,7 @@
               </div>
             </div>
 
-  <button type="submit" matTooltip="Click Submit Button"[disabled]="!collaboratorForm.valid" class="btn-primary">Update</button>
+  <button type="submit" matTooltip="Click Submit Button"  class="btn-primary">Update</button>
   <p *ngIf="dataSaved" style="color:rgb(0, 128, 0);font-size:20px;font-weight:bold" Class="success" >  
     {{message}}</p>  
 </form> 

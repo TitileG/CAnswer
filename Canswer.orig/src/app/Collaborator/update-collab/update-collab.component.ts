@@ -60,21 +60,22 @@ export class UpdateCollabComponent implements OnInit {
 });
 }
 
-  updateCollaborator(collaborator: Collaborator){
-    collaborator.ID =this.collaboratorIdUpdate;
+  updateCollaborator(collaborator: AddCollaborator){
+  
   this.collaboratorService.updateCollaborators(collaborator).subscribe(() => {  
       this.dataSaved = true;  
+
 
   });
 }
   
-
      onFormSubmit() {  
+       console.log("Phase 4 ")
       this.dataSaved = false;  
       const collaborator = this.collaboratorForm.value;  
       this.updateCollaborator(collaborator);  
       this.collaboratorForm.reset();  
-      this.collaboratorIdUpdate = null;  
+    
     }  
     
   }

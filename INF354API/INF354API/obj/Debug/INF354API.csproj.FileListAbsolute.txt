@@ -471,8 +471,6 @@ K:\CAnswer\INF354API\INF354API\bin\System.Web.Http.Owin.xml
 K:\CAnswer\INF354API\INF354API\obj\Debug\INF354API.csprojResolveAssemblyReference.cache
 K:\CAnswer\INF354API\INF354API\obj\Debug\INF354API.dll
 K:\CAnswer\INF354API\INF354API\obj\Debug\INF354API.pdb
-<<<<<<< HEAD
 C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\obj\Debug\INF354API.csprojAssemblyReference.cache
-=======
 >>>>>>> 746ed014f7a0274ef3268ccfd10a97cb80d05d11
 >>>>>>> fd34da8b70c74249ec060cc0a7e3276f39aebbd6
