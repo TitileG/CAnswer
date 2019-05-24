@@ -19,21 +19,21 @@
                 </span>
             </div>
       </form>
-          <div class="panel-body" *ngIf="show">
+          <div class="panel-body" *ngIf="Answers">
               <ul class="chat">
                   <li class="left clearfix" *ngFor="let hero of Answers" >
-                    <div *ngIf="hero.QuestionID % 2 == 0"><span class="chat-img pull-left" >
+                    <div ><span class="chat-img pull-left" >
                       <img src="http://placehold.it/50/55C1E7/fff&text=U" alt="User Avatar" class="img-circle" />
                   </span>
                       <div class="chat-body clearfix">
                           <div class="header">
                               <strong class="primary-font">{{hero.UserID}}</strong> <small class="pull-right text-muted">
-                                  <span class="glyphicon glyphicon-time">Time</span></small>
+                                  <h1 class="glyphicon glyphicon-time" style="size: 70px">{{hero.QuestionID}}</h1  ></small>
+                                  <h1 style="size: 70px">
+                                    {{hero.Answer}}
+                                  </h1>
                           </div>
-                          <p>
-                              {{equal}}
-                              {{hero.name}}
-                          </p>
+                          
                       </div>
                    </div>
                   </li>

@@ -5,13 +5,13 @@
       <button class="btn btn-primary" type="submit"  routerLink="/addquestion" >Add a Question</button>
     </span>
 </div>
-<div *ngIf="show">
+<div *ngIf="Questions">
       
       <div class="container" *ngFor="let hero of Questions"  [routerLink]="['/answer', hero.ID]">
           
-          <button [routerLink]="['/answer', hero.ID]"><span>{{hero.ID}}</span></button>
+          <button [routerLink]="['/answer', hero.ID]"><span>Reply</span></button>
           <p>{{hero.Question1}}</p>
-          <span class="time-right">11:00</span>
+          <span class="time-right"></span>
         </div>
         <br>
 </div>

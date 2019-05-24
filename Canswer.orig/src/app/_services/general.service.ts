@@ -15,7 +15,7 @@ export class GeneralService {
     apiurl = 'http://localhost:51587/api/Users/';
 
    getAnswers(id: number) {
-   return this.http.get(`http://localhost:51587/api/Users/getAnswers/${id}`);
+   return this.http.get<Answer[]>(`http://localhost:51587/api/Users/getAnswers/${id}`);
    }
 
 
@@ -24,7 +24,7 @@ export class GeneralService {
   }
   AddQuestion(question: Question) {
     console.log('it works');
-    return this.http.post('http://localhost:51587/api/Users/AddQuestion', question).subscribe();
+    return this.http.post('http://localhost:51587/api/Users/AddQuestion', question);
   }
   AddAnswer(answer: Answer) {
     return this.http.post('http://localhost:51587/api/Users/AddAnswer', answer).subscribe();
