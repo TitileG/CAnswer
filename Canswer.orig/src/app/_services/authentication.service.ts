@@ -27,12 +27,13 @@ export class AuthenticationService {
             .pipe(map(user => {
                 this.currentUser2 = user;
                 // login successful if there's a jwt token in the response
-                if (this.currentUser2 && this.currentUser2.usertypeID > 1) {
+                if (this.currentUser2.usertypeID > 1) {
                     console.log("hello")
                     // store user details and jwt token in local storage to keep user logged in between page refreshes
                     localStorage.setItem('currentUser', JSON.stringify(this.currentUser2));
                     this.currentUserSubject.next(this.currentUser2);
                 }
+              
 
                 return this.currentUser2;
             }));

@@ -255,6 +255,41 @@ namespace INF354API.Controllers
 
             }
             [ResponseType(typeof(AddCollaborator))]
+            public AddCollaborator AddCollaborator(AddCollaborator newCollaborator)
+            {
+
+                //this is for an error that it can serialize the data that we send through
+                db.Configuration.ProxyCreationEnabled = false;
+                
+                try
+                {
+                    if (newCollaborator != null)
+                    {
+                        
+
+                        db.Users.Add(newCollaborator.getusers);
+                        db.SaveChanges();
+                        User presentuser = db.Users.Where(i => i.Username == newCollaborator.getusers.Username && i.Password == newCollaborator.getusers.Password).FirstOrDefault();
+                        newCollaborator.getcolab.Users = presentuser.ID;
+                        db.Colloborators.Add(newCollaborator.getcolab);
+                        db.SaveChanges();
+                    }
+                    else
+                    {
+                        return newCollaborator;
+                    }
+
+                    //List<Colloborator> colabList = db.Colloborators.ToList();
+                    return newCollaborator;
+                }
+                catch (Exception e)
+                {
+                    string mesage = e.Message;
+                    throw e;
+                }
+
+            }
+            [ResponseType(typeof(AddCollaborator))]
             // POST: api/Users
             public List<Colloborator> UpdateCollaborator(AddCollaborator Colab)
             {
@@ -268,14 +303,25 @@ namespace INF354API.Controllers
                     User newuser = Colab.getusers;
 
                     //then we searh the user table for the id and update the information
-                    User presentuser = db.Users.Where(i => i.Username == newuser.Username && i.Password == newuser.Password).FirstOrDefault();
-                    presentuser = newuser;
+                    Colloborator presentcolab = db.Colloborators.Where(i => i.ID ==newcolabs.ID).FirstOrDefault();
+                    int id = (int)presentcolab.Users;
+                    //newcolabs.Users = id;
+                    presentcolab.Name = newcolabs.Name;
+                    presentcolab.Job_Depscription = newcolabs.Job_Depscription;
+                    presentcolab.Phone_number = newcolabs.Phone_number;
+                    presentcolab.Surname = newcolabs.Surname;
+                    presentcolab.Qualification = newcolabs.Qualification;
+                    db.Entry(presentcolab).State = EntityState.Modified;
+
                     db.SaveChanges();
                     //the we search see if its a collaborator if it is we change the colabinfromation aswell
-                    Colloborator presentcolab = db.Colloborators.Where(i => i.Users == presentuser.ID).FirstOrDefault();
-                    if (presentcolab != null)
+                    User presentuser = db.Users.Where(i => i.ID == presentcolab.Users).FirstOrDefault();
+                    if (presentuser != null)
                     {
-                        presentcolab = newcolabs;
+                        db.Entry(presentuser).State = EntityState.Modified;
+                        //presentuser.Username = newuser.Username;
+                        //presentuser.Password = newuser.Password;
+                        
                         db.SaveChanges();
                     }
 

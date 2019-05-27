@@ -33,7 +33,7 @@
                   </div>
                     
               <div class="form-group">
-                <input formControlName="jobDescr"  placeholder="Job Description" class="acc-input">  
+                <input formControlName="jobDescription"  placeholder="Job Description" class="acc-input">  
                
               </div>
 
@@ -42,10 +42,15 @@
             
 
               </div>
+              <div class="form-group">
+                  <input formControlName="password"  placeholder="password" class="acc-input">  
+                
+       
+              </div>
             </div>
 
-  <button type="submit" matTooltip="Click Submit Button"[disabled]="!collaboratorForm.valid" class="btn-primary"> Submit</button>
-  <button type="reset" matTooltip="Click Reset Button" (click)="resetForm()" class="btn-primary">Reset</button>
+  <button type="submit" matTooltip="Click Submit Button" class="btn-primary"> Submit</button>
+
   <p *ngIf="dataSaved" style="color:rgb(0, 128, 0);font-size:20px;font-weight:bold" Class="success" >  
     {{message}}</p>  
 </form> 

@@ -26,17 +26,17 @@ export class CollobaratorsService {
     } 
 
 
- AddCollaborators(collaborator: Collaborator): Observable<Collaborator>{
-   const httpOptions = {headers: new HttpHeaders({'content-type':'application/json'})};
-   return this.http.post<Collaborator>(
-     this.url+'/AddCollaborators',
-     collaborator,httpOptions);
+ AddCollaborators(collaborator: AddCollaborator): Observable<AddCollaborator>{
+  //  const httpOptions = {headers: new HttpHeaders({'content-type':'application/json'})};
+   return this.http.post<AddCollaborator>(
+     this.url+'/AddCollaborator',
+     collaborator);
    
  }
 
- updateCollaborators(collaborator:AddCollaborator): Observable<Collaborator>{
-   const httpOptions ={headers: new HttpHeaders({'content-type':'application/json'})};
-   return this.http.put<Collaborator>
+ updateCollaborators(collaborator:AddCollaborator): Observable<AddCollaborator>{
+  const httpOptions ={headers: new HttpHeaders({'content-type':'application/json'})};
+   return this.http.post<AddCollaborator>
 
    ( this.url+ '/UpdateCollaborator',collaborator,httpOptions)
  }

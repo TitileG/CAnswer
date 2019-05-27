@@ -11,6 +11,7 @@ export class AppComponent {
     currentUser: User;
     currentUserSubscription: Subscription;
     users: User[] = [];
+    master:User;
 
     constructor(
         private router: Router,
@@ -20,7 +21,16 @@ export class AppComponent {
         this.authenticationService.currentUser.subscribe(x => this.currentUser = x);
         this.currentUserSubscription = this.authenticationService.currentUser.subscribe(user => {
             this.currentUser = user;
+          
+            if(user.usertypeID = 2)
+            {
+                this.master = user;
+            }
+
         });
+      
+      
+        
     }
 
     logout() {
