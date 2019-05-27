@@ -22,8 +22,8 @@ export class ForumNavComponent implements OnInit {
 Add() {
   // console.log('success');
   this.addquestion = new Question();
-  // this.addquestion.ID = this.AuthServ.currentUser2.ID;
-  this.addquestion.ID = 2;
+  this.addquestion.ID = this.AuthServ.currentUser2.ID;
+  // this.addquestion.ID = 2;
   this.addquestion.Question1 = this.profileForm.controls['Question1'].value;
   // console.log(this.addquestion);
   this.service.AddQuestion(this.addquestion);
