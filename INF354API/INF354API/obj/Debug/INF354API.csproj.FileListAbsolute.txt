@@ -1,476 +1,93 @@
-C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\INF354API\INF354API\obj\Debug\INF354API.csprojResolveAssemblyReference.cache
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\ApplicationInsights.config
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\roslyn\csc.exe
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\roslyn\vbc.exe
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\roslyn\VBCSCompiler.exe
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\INF354API.dll.config
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\INF354API.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\INF354API.pdb
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Antlr3.Runtime.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\EntityFramework.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\EntityFramework.SqlServer.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AI.Web.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.ApplicationInsights.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Newtonsoft.Json.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Owin.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Net.Http.Formatting.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Cors.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Helpers.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Http.Cors.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Http.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Http.Owin.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Http.WebHost.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Mvc.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Optimization.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Razor.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Deployment.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Razor.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\WebGrease.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AI.Web.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.ApplicationInsights.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Net.Http.Formatting.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Http.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Http.Cors.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Newtonsoft.Json.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Helpers.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Http.WebHost.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Mvc.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Optimization.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Razor.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Deployment.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Razor.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Antlr3.Runtime.pdb
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\EntityFramework.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\EntityFramework.SqlServer.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\bin\System.Web.Http.Owin.xml
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\obj\Debug\INF354API.csproj.CoreCompileInputs.cache
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\obj\Debug\INF354API.csproj.CopyComplete
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\obj\Debug\INF354API.dll
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\obj\Debug\INF354API.pdb
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\ApplicationInsights.config
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\csc.exe
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\vbc.exe
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\VBCSCompiler.exe
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\INF354API.dll.config
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\INF354API.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\INF354API.pdb
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Antlr3.Runtime.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\EntityFramework.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\EntityFramework.SqlServer.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.Web.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.ApplicationInsights.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Newtonsoft.Json.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Owin.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Net.Http.Formatting.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Cors.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Helpers.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.Cors.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.Owin.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.WebHost.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Mvc.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Optimization.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Razor.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Deployment.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Razor.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\WebGrease.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.Web.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.ApplicationInsights.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Net.Http.Formatting.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.Cors.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Newtonsoft.Json.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Helpers.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.WebHost.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Mvc.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Optimization.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Razor.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Deployment.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Razor.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Antlr3.Runtime.pdb
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\EntityFramework.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\EntityFramework.SqlServer.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.Owin.xml
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\obj\Debug\INF354API.csprojAssemblyReference.cache
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\obj\Debug\INF354API.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\obj\Debug\INF354API.csproj.CopyComplete
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\obj\Debug\INF354API.dll
-C:\Users\User\Desktop\CAnswer\INF354API\INF354API\obj\Debug\INF354API.pdb
-<<<<<<< HEAD
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\ApplicationInsights.config
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\csc.exe
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\vbc.exe
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\VBCSCompiler.exe
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\INF354API.dll.config
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\INF354API.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\INF354API.pdb
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Antlr3.Runtime.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\EntityFramework.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\EntityFramework.SqlServer.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.Web.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.ApplicationInsights.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Newtonsoft.Json.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Owin.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Net.Http.Formatting.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Cors.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Helpers.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.Cors.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.Owin.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.WebHost.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Mvc.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Optimization.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Razor.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Deployment.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Razor.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\WebGrease.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.Web.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.ApplicationInsights.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Net.Http.Formatting.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.Cors.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Newtonsoft.Json.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Helpers.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.WebHost.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Mvc.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Optimization.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Razor.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Deployment.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Razor.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Antlr3.Runtime.pdb
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\EntityFramework.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\EntityFramework.SqlServer.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\bin\System.Web.Http.Owin.xml
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\obj\Debug\INF354API.csprojResolveAssemblyReference.cache
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\obj\Debug\INF354API.dll
-C:\Users\u15176704\Desktop\CAnswer\INF354API\INF354API\obj\Debug\INF354API.pdb
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\ApplicationInsights.config
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\roslyn\csc.exe
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\roslyn\vbc.exe
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\roslyn\VBCSCompiler.exe
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\INF354API.dll.config
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\INF354API.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\INF354API.pdb
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Antlr3.Runtime.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\EntityFramework.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\EntityFramework.SqlServer.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AI.Web.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.ApplicationInsights.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Security.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Newtonsoft.Json.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Owin.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Net.Http.Formatting.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Cors.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Helpers.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Http.Cors.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Http.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Http.Owin.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Http.WebHost.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Mvc.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Optimization.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Razor.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.WebPages.Deployment.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.WebPages.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.WebPages.Razor.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\WebGrease.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AI.Web.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.ApplicationInsights.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Net.Http.Formatting.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Http.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Http.Cors.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Newtonsoft.Json.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Helpers.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Http.WebHost.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Mvc.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Optimization.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Razor.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.WebPages.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.WebPages.Deployment.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.WebPages.Razor.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Antlr3.Runtime.pdb
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\EntityFramework.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\EntityFramework.SqlServer.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Security.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\bin\System.Web.Http.Owin.xml
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\obj\Debug\INF354API.csprojAssemblyReference.cache
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\obj\Debug\INF354API.csproj.CoreCompileInputs.cache
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\obj\Debug\INF354API.csproj.CopyComplete
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\obj\Debug\INF354API.dll
-C:\Users\u15176704\Desktop\New folder\INF354API\INF354API\obj\Debug\INF354API.pdb
-=======
-K:\CAnswer\INF354API\INF354API\bin\ApplicationInsights.config
-K:\CAnswer\INF354API\INF354API\bin\roslyn\csc.exe
-K:\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-K:\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-K:\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.dll
-K:\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-K:\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CSharp.Core.targets
-K:\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.VisualBasic.Core.targets
-K:\CAnswer\INF354API\INF354API\bin\roslyn\System.Collections.Immutable.dll
-K:\CAnswer\INF354API\INF354API\bin\roslyn\System.Reflection.Metadata.dll
-K:\CAnswer\INF354API\INF354API\bin\roslyn\vbc.exe
-K:\CAnswer\INF354API\INF354API\bin\roslyn\VBCSCompiler.exe
-K:\CAnswer\INF354API\INF354API\bin\roslyn\VBCSCompiler.exe.config
-K:\CAnswer\INF354API\INF354API\bin\INF354API.dll.config
-K:\CAnswer\INF354API\INF354API\bin\INF354API.dll
-K:\CAnswer\INF354API\INF354API\bin\INF354API.pdb
-K:\CAnswer\INF354API\INF354API\bin\Antlr3.Runtime.dll
-K:\CAnswer\INF354API\INF354API\bin\EntityFramework.dll
-K:\CAnswer\INF354API\INF354API\bin\EntityFramework.SqlServer.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AI.Agent.Intercept.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AI.DependencyCollector.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AI.PerfCounterCollector.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AI.ServerTelemetryChannel.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AI.Web.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AI.WindowsServer.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.ApplicationInsights.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Core.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Owin.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Host.SystemWeb.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Cookies.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Facebook.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Google.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.OAuth.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Twitter.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Web.Infrastructure.dll
-K:\CAnswer\INF354API\INF354API\bin\Newtonsoft.Json.dll
-K:\CAnswer\INF354API\INF354API\bin\Owin.dll
-K:\CAnswer\INF354API\INF354API\bin\System.Net.Http.Formatting.dll
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Cors.dll
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Helpers.dll
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Http.Cors.dll
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Http.dll
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Http.Owin.dll
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Http.WebHost.dll
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Mvc.dll
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Optimization.dll
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Razor.dll
-K:\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Deployment.dll
-K:\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.dll
-K:\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Razor.dll
-K:\CAnswer\INF354API\INF354API\bin\WebGrease.dll
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AI.DependencyCollector.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AI.ServerTelemetryChannel.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AI.Web.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AI.WindowsServer.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.ApplicationInsights.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-K:\CAnswer\INF354API\INF354API\bin\System.Net.Http.Formatting.xml
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Http.xml
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Http.Cors.xml
-K:\CAnswer\INF354API\INF354API\bin\Newtonsoft.Json.xml
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Helpers.xml
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Http.WebHost.xml
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Mvc.xml
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Optimization.xml
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Razor.xml
-K:\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.xml
-K:\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Deployment.xml
-K:\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Razor.xml
-K:\CAnswer\INF354API\INF354API\bin\Antlr3.Runtime.pdb
-K:\CAnswer\INF354API\INF354API\bin\EntityFramework.xml
-K:\CAnswer\INF354API\INF354API\bin\EntityFramework.SqlServer.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Core.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Owin.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Host.SystemWeb.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Facebook.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Cookies.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.OAuth.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Google.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Twitter.xml
-K:\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-K:\CAnswer\INF354API\INF354API\bin\System.Web.Http.Owin.xml
-K:\CAnswer\INF354API\INF354API\obj\Debug\INF354API.csprojResolveAssemblyReference.cache
-K:\CAnswer\INF354API\INF354API\obj\Debug\INF354API.dll
-K:\CAnswer\INF354API\INF354API\obj\Debug\INF354API.pdb
-C:\Users\u17136319\Downloads\CAnswer\INF354API\INF354API\obj\Debug\INF354API.csprojAssemblyReference.cache
->>>>>>> 746ed014f7a0274ef3268ccfd10a97cb80d05d11
->>>>>>> fd34da8b70c74249ec060cc0a7e3276f39aebbd6
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\ApplicationInsights.config
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\roslyn\csc.exe
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\roslyn\vbc.exe
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\INF354API.dll.config
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\INF354API.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\INF354API.pdb
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Antlr3.Runtime.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\EntityFramework.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\EntityFramework.SqlServer.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AI.Web.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Newtonsoft.Json.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Owin.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Net.Http.Formatting.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Cors.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Helpers.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Http.Cors.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Http.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Http.Owin.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Http.WebHost.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Mvc.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Optimization.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Razor.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\WebGrease.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AI.Web.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Net.Http.Formatting.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Http.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Http.Cors.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Newtonsoft.Json.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Helpers.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Http.WebHost.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Mvc.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Optimization.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Razor.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Antlr3.Runtime.pdb
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\EntityFramework.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\EntityFramework.SqlServer.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\bin\System.Web.Http.Owin.xml
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\obj\Debug\INF354API.dll
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\obj\Debug\INF354API.pdb
+C:\Users\Nicky\Documents\SKOOL\2019\Semester 1\INF 354\Assignment 1\CAnswer\INF354API\INF354API\obj\Debug\INF354API.csprojResolveAssemblyReference.cache

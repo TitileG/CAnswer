@@ -46,7 +46,7 @@ namespace INF354API.Controllers
                 }
                 catch(Exception e)
                 {
-                   throw;
+                   throw e;
                 }
                 
             }
@@ -81,6 +81,7 @@ namespace INF354API.Controllers
                 return Ok(user);
             }
 
+
             // GET: api/Users
             public List<Symptom> GetSymptoms()
             {
@@ -90,9 +91,9 @@ namespace INF354API.Controllers
                     List<Symptom> symptomsList = db.Symptoms.ToList();
                     return symptomsList;
                 }
-                catch
+                catch(Exception e)
                 {
-                    throw;
+                    throw e;
                 }
                
             }
@@ -103,9 +104,9 @@ namespace INF354API.Controllers
                     List<Post> PostList = db.Posts.Include("Post_Comment").ToList();
                     return PostList;
                 }
-                catch
+                catch (Exception e)
                 {
-                    throw;
+                    throw e;
                 }
                 
             }
@@ -121,29 +122,53 @@ namespace INF354API.Controllers
                     return Questionlist;
 
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
-                    throw;
+                    
+                    throw e;
                 }
             }
             // POST: api/Users
-            [ResponseType(typeof(int))]
-            public List<Answer> getAnswers([FromBody] int id)
+            [ResponseType(typeof(string))]
+            public List<Answer> getAnswers(string id)
             {
                 //this is for an error that it can serialize the data that we send through
                 db.Configuration.ProxyCreationEnabled = false;
                 try
                 {
-                    List<Answer> Answerlist = db.Answers.Where(z => z.Question.ID == id).ToList();
+                    int convertedid;
+                    convertedid  = Convert.ToInt32(id);
+                    List<Answer> Answerlist = db.Answers.Where(z => z.Question.ID == convertedid).ToList();
                     return Answerlist;
 
 
                 }
 
-                catch (Exception)
+                catch (Exception e)
                 {
 
-                    throw;
+                    throw e;
+                }
+
+                //return Answers;
+            }
+            // POST: api/Users
+            [ResponseType(typeof(int))]
+            public Question GetQuestionbyId([FromBody] int id)
+            {
+                //this is for an error that it can serialize the data that we send through
+                db.Configuration.ProxyCreationEnabled = false;
+                try
+                {
+                    Question Question = db.Questions.Where(z => z.ID == id).FirstOrDefault() ;
+                    return Question;
+
+                }
+
+                catch (Exception e)
+                {
+
+                    throw e;
                 }
 
                 //return Answers;
@@ -157,10 +182,10 @@ namespace INF354API.Controllers
                     List<Treatment> treatlist = db.Treatments.Include(zz => zz.Treatment_Type).ToList();
                     return treatlist;
                 }
-                catch
+                catch(Exception e)
                 {
 
-                    throw;
+                    throw e;
                 }    
                 //this is for an error that it can serialize the data that we send through
                 
@@ -194,7 +219,7 @@ namespace INF354API.Controllers
                 }
                 catch (Exception e)
                 {
-
+                    string messag = e.Message;
                     return NotFound();
                 }
 
@@ -225,7 +250,7 @@ namespace INF354API.Controllers
                 catch (Exception e)
                 {
                     string mesage = e.Message;
-                    throw;
+                    throw e;
                 }
 
             }
@@ -261,10 +286,11 @@ namespace INF354API.Controllers
                         catch (Exception e)
                         {
                             string mesage = e.Message;
-                            throw;
+                            throw e;
                         }
 
             }
+
             [ResponseType(typeof(Post_Comment))]
             // POST: api/Users
             public IHttpActionResult AddComment(Post_Comment Comment)
@@ -282,7 +308,8 @@ namespace INF354API.Controllers
                     }
                     catch (Exception e)
                     {
-                        return Ok();
+                        string messag = e.Message;
+                        return NotFound();
                     }
                 }
                 else
@@ -311,6 +338,7 @@ namespace INF354API.Controllers
                     }
                     catch (Exception e)
                     {
+                        string messag = e.Message;
                         return newQuestion;
                     }
                 }
@@ -420,7 +448,7 @@ namespace INF354API.Controllers
                 }
                 catch (Exception e)
                 {
-
+                    string messag = e.Message;
                     return false;
                 }
             }
